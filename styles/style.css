@@ -13,6 +13,11 @@
     font-family: Consolas;
     transition: background-color 0.5s;
 }
+.home {
+    position: absolute;
+    top: 20px;
+    right: 2%;
+}
 .button:hover {
     background-color: #2d2855;
 }
@@ -22,4 +27,12 @@ body {
     background: linear-gradient(to bottom, #b9b9ff, #FFFFFF);
     overflow: hidden;
     position: relative;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.scroll-container {
+    width: auto;
+    height: 900px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
