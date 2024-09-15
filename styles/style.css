@@ -16,3 +16,10 @@
 .button:hover {
     background-color: #2d2855;
 }
+body {
+    margin: 0;
+    height: 170vh;
+    background: linear-gradient(to bottom, #b9b9ff, #FFFFFF);
+    overflow: hidden;
+    position: relative;
+}
