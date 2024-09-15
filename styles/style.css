@@ -1,0 +1,18 @@
+.button {
+    display: block;
+    width: 200px;
+    height: 60px;
+    margin: 50px auto;
+    background-color: #6c5aff;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Consolas;
+    transition: background-color 0.5s;
+}
+.button:hover {
+    background-color: #2d2855;
+}
