@@ -36,3 +36,6 @@ body {
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
+.p-sideways{
+    transform: rotate(270deg);
+}
